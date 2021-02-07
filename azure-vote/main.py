@@ -22,7 +22,7 @@ from datetime import datetime
  from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 
 # Logging
-logger = # TODO: Setup logger
+#logger = # TODO: Setup logger
 logger = logging.getLogger(__name__)
 logger.addHandler(AzureLogHandler(connection_string='InstrumentationKey=d2989c85-e9da-4470-97b3-2c4186d9785f'))
 # Metrics
